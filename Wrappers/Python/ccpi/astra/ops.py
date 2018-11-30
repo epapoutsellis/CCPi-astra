@@ -182,3 +182,8 @@ class AstraProjectorMC(Operator):
                                                 inputsize[0],
                                                 inputsize[1]))
     
+   def allocate_direct(self):
+       return self.create_image_data()
+	
+
+    
